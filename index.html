@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="intro">
+            <img src="ritik.jpg" alt="my image" width="200px">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm <b>Ritik.M.Sharma</b>, a passionate developer.</p>
+            <button onclick="scrollToSection('projects')">See My Work</button>
+        </div>
+    </section>
+
+    <section id="about">
+
+        <h2>About Me</h2>
+        <p>Hi, I'm <b>Ritik.M.Sharma</b>, a passionate BSc IT student currently delving into the world of full-stack
+            development.
+            My journey in technology is driven by a curiosity to understand both the front-end and back-end of web
+            applications. I'm eager to build innovative and efficient solutions, constantly expanding my skill set to
+            become a versatile developer.</p>
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project">
+            <h3>Tic Tac Toe</h3>
+            <p>A Basic game which is developed by me with the help of html,css,javascript, In which Html is used for
+                basic structure and css is used for styling and for better UI and javascript is used for Logic</p>
+        </div>
+        <div class="project">
+            <h3>Travel Log app</h3>
+            <p>Welcome to TravelLog, a dynamic travel journal app designed to document and share your adventures. Built
+                with the MERN stack (MongoDB, Express.js, React, and Node.js), TravelLog allows users to create, manage,
+                and explore travel entries with ease. Whether you're capturing memories from a weekend getaway or a
+                world tour, TravelLog provides an intuitive platform to chronicle your journeys, upload photos, and
+                interact with a community of fellow travelers. With seamless performance and a user-friendly interface,
+                TravelLog is your ultimate companion for preserving and sharing travel experiences.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 <i>Ritik.M.Sharma.</i> All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
